@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B33275B9583B5699A5570D9 /* Pods_WidyaMiniProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607F3237FA5702E779E0F949 /* Pods_WidyaMiniProject.framework */; };
 		84B2195627B6A31C00A2C58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2195527B6A31C00A2C58D /* AppDelegate.swift */; };
 		84B2195827B6A31C00A2C58D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2195727B6A31C00A2C58D /* SceneDelegate.swift */; };
 		84B2195A27B6A31C00A2C58D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B2195927B6A31C00A2C58D /* ViewController.swift */; };
-		84B2195D27B6A31C00A2C58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2195B27B6A31C00A2C58D /* Main.storyboard */; };
 		84B2195F27B6A31F00A2C58D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B2195E27B6A31F00A2C58D /* Assets.xcassets */; };
 		84B2196227B6A31F00A2C58D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B2196027B6A31F00A2C58D /* LaunchScreen.storyboard */; };
+		84C90B6227B6D91300EF75C9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C90B6127B6D91300EF75C9 /* Register.storyboard */; };
+		84C90B6427B6D95300EF75C9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B6327B6D95300EF75C9 /* RegisterViewController.swift */; };
+		84C90B6627B6DA6400EF75C9 /* PilihJurusanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B6527B6DA6400EF75C9 /* PilihJurusanViewController.swift */; };
+		84C90B6827B6DA7400EF75C9 /* PilihJurusan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C90B6727B6DA7400EF75C9 /* PilihJurusan.storyboard */; };
+		84C90B6A27B6DC2F00EF75C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C90B6927B6DC2F00EF75C9 /* Main.storyboard */; };
+		84C90B6E27B6DD0C00EF75C9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B6D27B6DD0C00EF75C9 /* NetworkService.swift */; };
+		84C90B7127B6DD2C00EF75C9 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B7027B6DD2C00EF75C9 /* Datas.swift */; };
+		84C90B7427B7220000EF75C9 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C90B7327B7220000EF75C9 /* Admin.storyboard */; };
+		84C90B7627B7221200EF75C9 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B7527B7221200EF75C9 /* AdminViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		607F3237FA5702E779E0F949 /* Pods_WidyaMiniProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WidyaMiniProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2195227B6A31C00A2C58D /* WidyaMiniProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidyaMiniProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B2195527B6A31C00A2C58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B2195727B6A31C00A2C58D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		84B2195927B6A31C00A2C58D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84B2195C27B6A31C00A2C58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84B2195E27B6A31F00A2C58D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B2196127B6A31F00A2C58D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B2196327B6A31F00A2C58D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C90B6127B6D91300EF75C9 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		84C90B6327B6D95300EF75C9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		84C90B6527B6DA6400EF75C9 /* PilihJurusanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PilihJurusanViewController.swift; sourceTree = "<group>"; };
+		84C90B6727B6DA7400EF75C9 /* PilihJurusan.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PilihJurusan.storyboard; sourceTree = "<group>"; };
+		84C90B6927B6DC2F00EF75C9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		84C90B6D27B6DD0C00EF75C9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		84C90B7027B6DD2C00EF75C9 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		84C90B7327B7220000EF75C9 /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
+		84C90B7527B7221200EF75C9 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		91020190784131A322EC25E1 /* Pods-WidyaMiniProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidyaMiniProject.release.xcconfig"; path = "Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject.release.xcconfig"; sourceTree = "<group>"; };
+		E823C650AB865EDF2CE282EF /* Pods-WidyaMiniProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidyaMiniProject.debug.xcconfig"; path = "Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B33275B9583B5699A5570D9 /* Pods_WidyaMiniProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12E5D1148BA86DFAD91A2807 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607F3237FA5702E779E0F949 /* Pods_WidyaMiniProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84B2194927B6A31C00A2C58D = {
 			isa = PBXGroup;
 			children = (
 				84B2195427B6A31C00A2C58D /* WidyaMiniProject */,
 				84B2195327B6A31C00A2C58D /* Products */,
+				E877A59D2D5D60FEAB4DD526 /* Pods */,
+				12E5D1148BA86DFAD91A2807 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,88 @@
 		84B2195427B6A31C00A2C58D /* WidyaMiniProject */ = {
 			isa = PBXGroup;
 			children = (
+				84C90B6F27B6DD1D00EF75C9 /* Models */,
+				84C90B6C27B6DCF700EF75C9 /* Services */,
+				84C90B6B27B6DCE700EF75C9 /* Features */,
 				84B2195527B6A31C00A2C58D /* AppDelegate.swift */,
 				84B2195727B6A31C00A2C58D /* SceneDelegate.swift */,
-				84B2195927B6A31C00A2C58D /* ViewController.swift */,
-				84B2195B27B6A31C00A2C58D /* Main.storyboard */,
 				84B2195E27B6A31F00A2C58D /* Assets.xcassets */,
 				84B2196027B6A31F00A2C58D /* LaunchScreen.storyboard */,
 				84B2196327B6A31F00A2C58D /* Info.plist */,
 			);
 			path = WidyaMiniProject;
+			sourceTree = "<group>";
+		};
+		84C90B5E27B6D8B800EF75C9 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B6127B6D91300EF75C9 /* Register.storyboard */,
+				84C90B6327B6D95300EF75C9 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		84C90B5F27B6D8C200EF75C9 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84B2195927B6A31C00A2C58D /* ViewController.swift */,
+				84C90B6927B6DC2F00EF75C9 /* Main.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84C90B6027B6D8C900EF75C9 /* PilihJurusan */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B6527B6DA6400EF75C9 /* PilihJurusanViewController.swift */,
+				84C90B6727B6DA7400EF75C9 /* PilihJurusan.storyboard */,
+			);
+			path = PilihJurusan;
+			sourceTree = "<group>";
+		};
+		84C90B6B27B6DCE700EF75C9 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B7227B721C700EF75C9 /* AdminPage */,
+				84C90B6027B6D8C900EF75C9 /* PilihJurusan */,
+				84C90B5F27B6D8C200EF75C9 /* Login */,
+				84C90B5E27B6D8B800EF75C9 /* Register */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		84C90B6C27B6DCF700EF75C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B6D27B6DD0C00EF75C9 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84C90B6F27B6DD1D00EF75C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B7027B6DD2C00EF75C9 /* Datas.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84C90B7227B721C700EF75C9 /* AdminPage */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B7327B7220000EF75C9 /* Admin.storyboard */,
+				84C90B7527B7221200EF75C9 /* AdminViewController.swift */,
+			);
+			path = AdminPage;
+			sourceTree = "<group>";
+		};
+		E877A59D2D5D60FEAB4DD526 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E823C650AB865EDF2CE282EF /* Pods-WidyaMiniProject.debug.xcconfig */,
+				91020190784131A322EC25E1 /* Pods-WidyaMiniProject.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B2196627B6A31F00A2C58D /* Build configuration list for PBXNativeTarget "WidyaMiniProject" */;
 			buildPhases = (
+				019129F0A67645751980D762 /* [CP] Check Pods Manifest.lock */,
 				84B2194E27B6A31C00A2C58D /* Sources */,
 				84B2194F27B6A31C00A2C58D /* Frameworks */,
 				84B2195027B6A31C00A2C58D /* Resources */,
+				D8019BEB14126B9A95F0B79A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +232,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B2196227B6A31F00A2C58D /* LaunchScreen.storyboard in Resources */,
+				84C90B6A27B6DC2F00EF75C9 /* Main.storyboard in Resources */,
 				84B2195F27B6A31F00A2C58D /* Assets.xcassets in Resources */,
-				84B2195D27B6A31C00A2C58D /* Main.storyboard in Resources */,
+				84C90B6227B6D91300EF75C9 /* Register.storyboard in Resources */,
+				84C90B7427B7220000EF75C9 /* Admin.storyboard in Resources */,
+				84C90B6827B6DA7400EF75C9 /* PilihJurusan.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019129F0A67645751980D762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WidyaMiniProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8019BEB14126B9A95F0B79A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84B2194E27B6A31C00A2C58D /* Sources */ = {
@@ -139,22 +290,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B2195A27B6A31C00A2C58D /* ViewController.swift in Sources */,
+				84C90B7127B6DD2C00EF75C9 /* Datas.swift in Sources */,
+				84C90B6627B6DA6400EF75C9 /* PilihJurusanViewController.swift in Sources */,
 				84B2195627B6A31C00A2C58D /* AppDelegate.swift in Sources */,
+				84C90B7627B7221200EF75C9 /* AdminViewController.swift in Sources */,
 				84B2195827B6A31C00A2C58D /* SceneDelegate.swift in Sources */,
+				84C90B6E27B6DD0C00EF75C9 /* NetworkService.swift in Sources */,
+				84C90B6427B6D95300EF75C9 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84B2195B27B6A31C00A2C58D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84B2195C27B6A31C00A2C58D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84B2196027B6A31F00A2C58D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +432,7 @@
 		};
 		84B2196727B6A31F00A2C58D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E823C650AB865EDF2CE282EF /* Pods-WidyaMiniProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +461,7 @@
 		};
 		84B2196827B6A31F00A2C58D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91020190784131A322EC25E1 /* Pods-WidyaMiniProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
