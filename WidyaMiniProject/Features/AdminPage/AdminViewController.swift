@@ -15,7 +15,6 @@ class AdminViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.viewDidLoad()
         listTable.delegate = self
         listTable.dataSource = self
-        // Do any additional setup after loading the view.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
