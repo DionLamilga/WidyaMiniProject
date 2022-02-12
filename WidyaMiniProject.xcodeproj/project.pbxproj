@@ -22,7 +22,19 @@
 		84C90B7127B6DD2C00EF75C9 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B7027B6DD2C00EF75C9 /* Datas.swift */; };
 		84C90B7427B7220000EF75C9 /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C90B7327B7220000EF75C9 /* Admin.storyboard */; };
 		84C90B7627B7221200EF75C9 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B7527B7221200EF75C9 /* AdminViewController.swift */; };
+		84C90B7E27B755C200EF75C9 /* WidyaMiniProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B7D27B755C200EF75C9 /* WidyaMiniProjectTests.swift */; };
+		84C90B8527B758F300EF75C9 /* ValidationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C90B8427B758F300EF75C9 /* ValidationTest.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C90B7F27B755C200EF75C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B2194A27B6A31C00A2C58D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B2195127B6A31C00A2C58D;
+			remoteInfo = WidyaMiniProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		607F3237FA5702E779E0F949 /* Pods_WidyaMiniProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WidyaMiniProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +54,9 @@
 		84C90B7027B6DD2C00EF75C9 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
 		84C90B7327B7220000EF75C9 /* Admin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Admin.storyboard; sourceTree = "<group>"; };
 		84C90B7527B7221200EF75C9 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		84C90B7B27B755C200EF75C9 /* WidyaMiniProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WidyaMiniProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C90B7D27B755C200EF75C9 /* WidyaMiniProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidyaMiniProjectTests.swift; sourceTree = "<group>"; };
+		84C90B8427B758F300EF75C9 /* ValidationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationTest.swift; sourceTree = "<group>"; };
 		91020190784131A322EC25E1 /* Pods-WidyaMiniProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidyaMiniProject.release.xcconfig"; path = "Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject.release.xcconfig"; sourceTree = "<group>"; };
 		E823C650AB865EDF2CE282EF /* Pods-WidyaMiniProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WidyaMiniProject.debug.xcconfig"; path = "Target Support Files/Pods-WidyaMiniProject/Pods-WidyaMiniProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +67,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B33275B9583B5699A5570D9 /* Pods_WidyaMiniProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C90B7827B755C200EF75C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				84B2195427B6A31C00A2C58D /* WidyaMiniProject */,
+				84C90B7C27B755C200EF75C9 /* WidyaMiniProjectTests */,
 				84B2195327B6A31C00A2C58D /* Products */,
 				E877A59D2D5D60FEAB4DD526 /* Pods */,
 				12E5D1148BA86DFAD91A2807 /* Frameworks */,
@@ -80,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				84B2195227B6A31C00A2C58D /* WidyaMiniProject.app */,
+				84C90B7B27B755C200EF75C9 /* WidyaMiniProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -162,6 +186,15 @@
 			path = AdminPage;
 			sourceTree = "<group>";
 		};
+		84C90B7C27B755C200EF75C9 /* WidyaMiniProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C90B7D27B755C200EF75C9 /* WidyaMiniProjectTests.swift */,
+				84C90B8427B758F300EF75C9 /* ValidationTest.swift */,
+			);
+			path = WidyaMiniProjectTests;
+			sourceTree = "<group>";
+		};
 		E877A59D2D5D60FEAB4DD526 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +226,24 @@
 			productReference = 84B2195227B6A31C00A2C58D /* WidyaMiniProject.app */;
 			productType = "com.apple.product-type.application";
 		};
+		84C90B7A27B755C200EF75C9 /* WidyaMiniProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C90B8327B755C200EF75C9 /* Build configuration list for PBXNativeTarget "WidyaMiniProjectTests" */;
+			buildPhases = (
+				84C90B7727B755C200EF75C9 /* Sources */,
+				84C90B7827B755C200EF75C9 /* Frameworks */,
+				84C90B7927B755C200EF75C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C90B8027B755C200EF75C9 /* PBXTargetDependency */,
+			);
+			name = WidyaMiniProjectTests;
+			productName = WidyaMiniProjectTests;
+			productReference = 84C90B7B27B755C200EF75C9 /* WidyaMiniProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +256,10 @@
 				TargetAttributes = {
 					84B2195127B6A31C00A2C58D = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					84C90B7A27B755C200EF75C9 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 84B2195127B6A31C00A2C58D;
 					};
 				};
 			};
@@ -222,6 +277,7 @@
 			projectRoot = "";
 			targets = (
 				84B2195127B6A31C00A2C58D /* WidyaMiniProject */,
+				84C90B7A27B755C200EF75C9 /* WidyaMiniProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +293,13 @@
 				84C90B6227B6D91300EF75C9 /* Register.storyboard in Resources */,
 				84C90B7427B7220000EF75C9 /* Admin.storyboard in Resources */,
 				84C90B6827B6DA7400EF75C9 /* PilihJurusan.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C90B7927B755C200EF75C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +363,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84C90B7727B755C200EF75C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C90B8527B758F300EF75C9 /* ValidationTest.swift in Sources */,
+				84C90B7E27B755C200EF75C9 /* WidyaMiniProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C90B8027B755C200EF75C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B2195127B6A31C00A2C58D /* WidyaMiniProject */;
+			targetProxy = 84C90B7F27B755C200EF75C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		84B2196027B6A31F00A2C58D /* LaunchScreen.storyboard */ = {
@@ -488,6 +568,52 @@
 			};
 			name = Release;
 		};
+		84C90B8127B755C200EF75C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99GMPVPXYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Project.WidyaMiniProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidyaMiniProject.app/WidyaMiniProject";
+			};
+			name = Debug;
+		};
+		84C90B8227B755C200EF75C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99GMPVPXYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Project.WidyaMiniProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WidyaMiniProject.app/WidyaMiniProject";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +631,15 @@
 			buildConfigurations = (
 				84B2196727B6A31F00A2C58D /* Debug */,
 				84B2196827B6A31F00A2C58D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C90B8327B755C200EF75C9 /* Build configuration list for PBXNativeTarget "WidyaMiniProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C90B8127B755C200EF75C9 /* Debug */,
+				84C90B8227B755C200EF75C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
